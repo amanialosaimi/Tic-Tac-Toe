@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <h2></h2><!-- to display roles of players and who is winner on the game -->
+        <center> <P id ="result"></P></center> <!-- to display counter of a win of each player and a tie  -->
+        <center>
+          <button id = 'start'>START GAME</button><!-- to start the game for the first time -->
+          <button id = 'new'>NEW GAME</button> <!-- to start other rounds from a game -->
+          <button id = 'stop'>STOP GAME</button> <!-- to stop from the play and end a game -->
+        </center>
+    </header>
+    <div class="continer" >  <!-- to display a game board  -->
+      <div class="Row1"> 
+         <div class="sequare"    id="sequare1"></div>
+         <div class="sequare"    id="sequare2"></div>
+         <div class="sequare"    id="sequare3"></div>
+       </div>
+       <div class="Row2"> 
+          <div class="sequare" id="sequare4"></div>
+          <div class="sequare" id="sequare5"></div>
+          <div class="sequare" id="sequare6"></div>
+       </div>
+       <div class="Row3"> 
+          <div class="sequare" id="sequare7"></div>
+          <div class="sequare" id="sequare8"></div>
+          <div class="sequare" id="sequare9"></div>
+        </div>
+    </div>
+    
+
+
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+   <script src="Javascript/main.js"></script>
+
+
+
+</body>
+</html>
