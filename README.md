@@ -43,20 +43,6 @@ I used some process as:
 
 ![](images/touse.gif)
 
-
-# How i solve the winner
-- I created a function to check from the was player clicked on three squares in a diagonal, horizontal, or vertical row by if condition
-- After each player role, I called the function
-
-# How my favorite functions work
-I defined a variable name is flag1 that refers on/off to the game, after the user click on the start game button it being called the function, In the first it checks for the game if off I called game function and change value flag 1 to 1
-
-![](images/start.png)
-
-I defined a variable that refers to the counter of scores to X/O/Tie after a win will update it by winner function, display it by scoureP variable.
-
-![](images/scoure.png)
-
 # URL the game
 
-https://pages.git.generalassemb.ly/amanialosaimi/Tic-Tac-Toe/
+https://amanialosaimi.github.io/Tic-Tac-Toe/
