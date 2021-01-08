@@ -1,1 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+*{
+  align-content: center;
+  justify-content: center;
+}
+body{
+  font-family: 'Langar';
+  background-color: CadetBlue;
+  margin: 0;
+  padding: 0;
 
+}
+h1{
+  text-align: center;
+  color: black;
+  font-size: 45px;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.continer{
+  display: flex;
+  align-items: center;
+  min-height: 180px;
+
+}
+.continer div{
+  height: 95px;
+  width: 95px;
+  align-content: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.sequare{
+  border: 6px solid black; 
+  height: 20px;
+  width: 10px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 80px;
+}
+p{
+  color: black;
+  font-style: bold;
+  font-size: 20px;
+}
+
+
+button{
+    cursor: grab;
+
+}
+
+@media only screen 
+and (min-device-width: 280px) 
+and (max-device-width: 900px) 
+ {
+
+ }
